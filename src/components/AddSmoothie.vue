@@ -72,7 +72,9 @@ export default {
     },
     addIng() {
       if (this.ingrediant) {
+        alert("hello");
         this.allIng.push(this.ingrediant);
+
         this.ingrediant = null;
         this.feedBack = null;
       } else {

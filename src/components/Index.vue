@@ -13,6 +13,13 @@
             </span>
           </li>
         </ul>
+        <a href="" class="btn-floating btn-small halfway-fab pink">
+          <router-link
+            :to="{ name: 'EditSmoothie', params: { slug: smoothie.slug } }"
+          >
+            <i class="material-icons">edit</i>
+          </router-link>
+        </a>
       </div>
     </div>
   </div>
